@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://jitpack.io/#exerro/channels"><img src="https://jitpack.io/v/exerro/channels.svg" alt="JitPack badge"/></a>
+  <img src="https://github.com/exerro/channels/actions/workflows/CI.yml/badge.svg" alt="Build passing status">
 </p>
 
 A channel is a bidirectional communication object capable of pushing and pulling
