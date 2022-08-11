@@ -32,9 +32,9 @@ channelB.push("2")
 assert(channelA.pull() == "2")
 ```
 
-## Using the library
+## Use the library
 
-### Get it with Gradle (`build.gradle.kts`)
+#### With Gradle (`build.gradle.kts`)
 
 ```kotlin
 repositories {
@@ -47,6 +47,6 @@ dependencies {
 }
 ```
 
-### Download from [releases](https://github.com/exerro/channels/releases)
+#### Download from [releases](https://github.com/exerro/channels/releases)
 
-### For more, see [JitPack](https://jitpack.io/#exerro/channels)
+#### For more, see [JitPack](https://jitpack.io/#exerro/channels)
