@@ -32,12 +32,9 @@ channelB.push("2")
 assert(channelA.pull() == "2")
 ```
 
-## Installation
+## Using the library
 
-Check out the [releases](https://github.com/exerro/channels/releases), or
-using a build system...
-
-### Gradle (`build.gradle.kts`)
+### Get it with Gradle (`build.gradle.kts`)
 
 ```kotlin
 repositories {
@@ -50,23 +47,6 @@ dependencies {
 }
 ```
 
-### Maven
+### Download from [releases](https://github.com/exerro/channels/releases)
 
-```xml
-<repositories>
-  <repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-  </repository>
-</repositories>
-
-<dependency>
-  <groupId>me.exerro</groupId>
-  <artifactId>channels</artifactId>
-  <version>1.0.0</version>
-</dependency>
-```
-
-## Testing the build before release
-
-    ./gradlew clean && ./gradlew build && ./gradlew build publishToMavenLocal
+### For more, see [JitPack](https://jitpack.io/#exerro/channels)
